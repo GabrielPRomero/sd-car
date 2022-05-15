@@ -1,7 +1,7 @@
 class NeuralNetwork {
     constructor(neuronCounts) {
         this.levels = []
-        for (let i = 0; i < levels.length; i++) {
+        for (let i = 0; i < neuronCounts.length; i++) {
             this.levels.push(new Level(neuronCounts[i], neuronCounts[i + 1]))
 
         }
